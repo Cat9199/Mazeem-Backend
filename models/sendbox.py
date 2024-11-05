@@ -6,8 +6,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 def sendbox(phone_number, data, content_sid):
     try:
-        account_sid = "AC2ab4c42295015a68595e14662812d8be"
-        auth_token = "366518d91d66b63a406dde259151108e"
+        account_sid = "ACdeab2a60de1a1128308a2528ea793154"
+        auth_token = "48976a1846ecbca7af0c06c6a6ffac6b"
         messaging_service_sid = "MG5e51dae099b377e3dedef52672b8fb2b"
         client = Client(account_sid, auth_token)
 
